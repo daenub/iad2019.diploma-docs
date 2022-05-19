@@ -5,10 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
+    <!-- TODO: self host the fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
 
   <body>
-    <div id="root"></div>
+    <main class="main">
+      <header class="header">
+        <!-- 1195 / 508 -->
+        <img
+          src="https://picsum.photos/id/233/1920/816?grayscale"
+          alt="Just a random background image"
+          class="header__image"
+        />
+        <!-- 1002, 451 -->
+        <div class="header__card">
+          <h1 class="header__title">Projekt Triibhuus</h1>
+          <p class="header__description">
+            Ein Projekt zur Förderung der bürgerlichen Partizipation
+          </p>
+          <p class="header__meta">
+            Diplomarbeit von Dan Büschlen<br />
+            19. Juni 2022<br />
+            IAD 2019<br />
+            Schule für Gestaltung Zürich<br />
+          </p>
+        </div>
+      </header>
+      <article class="content">
+        <div class="richtext">
+          <h2>Einleitung</h2>
+          <p>
+            Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die
+            Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines
+            großen Sprachozeans. Ein kleines Bächlein namens Duden fließt
+          </p>
+          <p>
+            durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein
+            paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht
+            einmal von der allmächtigen Interpunktion
+          </p>
+          <p>
+            werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages
+            aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen
+          </p>
+          <p>
+            in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen
+            Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ
+            sich nicht
+          </p>
+          <p>
+            beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und
+            machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte,
+            warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen,
+            die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.
+            Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort.
+            Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre
+            sie zigmal umgeschrieben worden und alles, was von ih
+          </p>
+        </div>
+      </article>
+    </main>
   </body>
 </html>

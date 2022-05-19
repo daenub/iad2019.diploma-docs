@@ -1,0 +1,14 @@
+.header {
+  @extend %grid;
+}
+
+.header__image {
+  grid-column: 2 / -1;
+}
+
+.header__card {
+  grid-column-end: span 8;
+  background: $white;
+  padding: 2rem;
+  margin-top: -4rem;
+}
