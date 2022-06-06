@@ -1,6 +1,7 @@
 html {
   font-family: "Work Sans", sans-serif;
   color: var(--oc-gray-8);
+  // hyphens: auto;
 
   font-size: 16px;
 }
@@ -8,11 +9,34 @@ html {
 .richtext {
   h2 {
     font-size: 2rem;
-    line-height: 2.5rem;
+    line-height: 1.25;
     margin-bottom: 2rem;
+    margin-top: 3rem;
   }
 
-  p {
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.3333;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  h4 {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  p,
+  ul {
     color: var(--oc-gray-7);
     font-size: 1.25rem;
     line-height: 2rem;
@@ -26,4 +50,19 @@ html {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+}
+
+.title-quote {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 3rem 0;
+
+  padding: 2rem;
+  background-color: var(--oc-gray-0);
+  color: var(--oc-gray-8);
+
+  border-top: 2px solid var(--oc-gray-4);
+
+  text-align: center;
 }
