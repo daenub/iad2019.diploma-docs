@@ -20,14 +20,19 @@
     <main class="main">
       <header class="header">
         <!-- 1195 / 508 -->
-        <img
+        <!-- <img
           src="https://picsum.photos/id/233/1920/816?grayscale"
           alt="Just a random background image"
+          
+        /> -->
+        <img
+          src="<%=require('./images/header.jpeg')%>"
+          alt="Bild eines Treibhauses"
           class="header__image"
         />
         <!-- 1002, 451 -->
         <div class="header__card">
-          <h1 class="header__title">Projekt Triibhuus</h1>
+          <h1 class="header__title">Triibhuus</h1>
           <p class="header__description">
             Ein Projekt zur Förderung der bürgerlichen Partizipation
           </p>
@@ -43,33 +48,533 @@
         <div class="richtext">
           <h2>Einleitung</h2>
           <p>
-            Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die
-            Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines
-            großen Sprachozeans. Ein kleines Bächlein namens Duden fließt
+            Dieses Projekt hat seinen Ursprung bei dieser Treppe, welche auf diesem Bild sichtbar
+            ist. Diese Treppe wurde von ein paar Freunden von mir gebaut. Sie hatten an einer
+            bestimmten Stelle des Flusses eine Ausstiegsstelle vermisst. Nach einigen Diskussionen
+            und einer Planungsphase haben sie sich schlussendlich dazu entschieden, Initiative zu
+            ergreifen und selbst eine Treppe für den Ausstieg zu bauen.
           </p>
           <p>
-            durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein
-            paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht
-            einmal von der allmächtigen Interpunktion
+            Es war aber allen Beteiligten klar, dass dieses Vorhaben den baurechtlichen Vorschriften
+            nicht entsprechen würden. Deshalb und auch aus der Respekt vor der Bürokratie, haben sie
+            sich nicht bei der lokalen Gemeindeverwaltung gemeldet.
           </p>
           <p>
-            werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages
-            aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen
+            Ich fand es faszinierend zu sehen, wie Menschen mit handwerklichen Fähigkeiten ein
+            Bedürfnis im öffentlichen Raum sahen und dann selbst gleich die Lösung dafür lieferten.
+            Gleichzeitig zeigt es aber auch auf, dass Personen der Bevölkerung sich nicht bei der
+            lokalen Gemeinde melden, weil sie befürchten, dass ihre Idee und die Initiative
+            abgelehnt werden könnte.
           </p>
           <p>
-            in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen
-            Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ
-            sich nicht
+            Dies hat mich auf die Idee gebracht, mit dieser Arbeit ein Konzept zu erstellen, um die
+            Frage…
+          </p>
+
+          <p class="text--highlighted">
+            «Wie kann ich die Bevölkerung dabei unterstützen ihre Ideen bei der Gemeinde
+            einzubringen?»
+          </p>
+          <p>…zu bearbeiten.</p>
+        </div>
+
+        <div class="richtext">
+          <h2>Recherche</h2>
+          <p>
+            Da bereits eine relativ klare Fragestellung definiert war, wollte ich nochmals einen
+            Schritt zurück machen und ein paar Aspekte genauer betrachten. Gibt es überhaupt ein
+            Bedürfnis auf Seite der Bevölkerung sich stärker einbringen zu können und gibt es dieses
+            Bedürfnis auch auf Seiten der Politik? Wo liegen momentan die Stolpersteine, wenn sich
+            Bürgerinnen oder Bürger einbringen wollen und was hält sie davon ab. Welche Projekte und
+            Angebote befassen sich bereits mit dieser Thematik?
+          </p>
+          <h3>Bevölkerung</h3>
+          <p>
+            Um mehr darüber zu erfahren, wie die Bevölkerung darüber denkt, habe ich mich mit meinem
+            Umfeld ausgetauscht. Alle diese Personen wohnen in einer Gemeinde, sind in einer
+            Nachbarschaft zuhause, haben alle ihre eigenen Vorstellung des öffentlichen Lebens,
+            sowie und Bedürfnisse an die öffentliche Infrastruktur.
+          </p>
+          <p>In den Gesprächen und beim Zuhören sind mir folgende Punkte aufgefallen.</p>
+          <p>Meinst du sowas wie «…» ?</p>
+          <p>
+            Wenn ich jeweils über das Thema dieses Projektes gesprochen und den Sachverhalt der
+            bürgerlichen Partizipation erklärt habe, kam immer wieder die Aussage «Meinst du so
+            etwas wie…?». Dabei folgte immer eine Idee oder ein Bedürfnis aus dem Alltag dieser
+            Menschen wi z.B. «Grünnützungsfläche» oder «eine Sitzbank am Waldrand». Dies hat mir
+            bestätigt, dass sehr viele Ideen und Ansätze für Projekte vorhanden sind
+          </p>
+          <p>Wo soll ich mich melden?</p>
+          <p>
+            Das Beispiel der «Sitzbank am Waldrand» hörte ich von einer älteren Frau, welche bei
+            ihrem Wohnort immer wieder denselben Spaziergang macht und sich eben an einer Stelle am
+            Waldrand eine Sitzbank wünschte. Sie weiss aber nicht ob sie sich bei der Verwaltung der
+            lokalen Gemeinde, der Holzkorporation oder sonst wo melden sollte.
           </p>
           <p>
-            beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und
-            machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte,
-            warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen,
-            die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.
-            Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort.
-            Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre
-            sie zigmal umgeschrieben worden und alles, was von ih
+            Das selbe ist mir auch aufgefallen, als ich bei der Verwaltung meiner Wohngemeinde
+            angerufen habe um jemanden für ein Interview anzufragen, welcher im Bereich der
+            bürgerlichen Partizipation arbeitet. Leider wusste auch selbst die Verwaltung nicht wer
+            dafür zuständig ist.
           </p>
+          <p>
+            Es gibt also in der Bevölkerung wie auch auf Seite der Verwaltung Unklarheit, wo die
+            richtige Anlaufstelle für Ideen und Projekte sind.
+          </p>
+          <p>Mit dieser Bürokratie hat das sowieso keine Chance!</p>
+          <p>
+            Von verschiedenen Personen hörte ich immer wieder, dass sie nicht glauben das eine
+            spezifische Idee dem Baurecht nicht entsprechen würde oder dass die Prozesse so lange
+            dauern, dass es überhaupt keinen Zweck hat sich einzubringen.
+          </p>
+          <p>Das Vetrauen in die Prozesse der Verwaltung scheint also nicht gross zu sein.</p>
+          <ul>
+            <li>Ich weiss nicht wo ich mich melden soll.</li>
+            <li>ja z.b. grünnutzungsfläche → da war schon mal eine idee</li>
+          </ul>
+          <p>Sammlung von Beiträgen zum Thema «Bürgerbeteiligung»</p>
+          <p>
+            <a
+              href="https://www.bertelsmann-stiftung.de/de/themen/demokratie/demokratie/buergerbeteiligung/buergerbeteiligung"
+              rel="nofollow"
+              >https://www.bertelsmann-stiftung.de/de/themen/demokratie/demokratie/buergerbeteiligung/buergerbeteiligung</a
+            >
+          </p>
+          <p>
+            Eine Erhebung der Bertelsmann Stiftung stützt meine These, dass ein grosser Teil der
+            Bevölkerung eine Beteiligung über die Wahlen hinaus wünscht. Ein sehr grosser Teil denkt
+            aber auch, dass die Politik eine solche Beteiligung gar nicht möchte. Die Erhebung muss
+            aber auch im Kontext des deutschen politischen System betrachtet werden, da sich dies
+            ziemlich stark zur schweizer Demokratie unterscheidet.
+          </p>
+          <p>Meinungsbild zur Bereitschaft der Bürger zu politischer Beteiligung</p>
+          <p>
+            <a
+              href="https://de.statista.com/statistik/daten/studie/191516/umfrage/bereitschaft-der-buerger-zu-mehr-politischer-beteiligung/"
+              rel="nofollow"
+              >https://de.statista.com/statistik/daten/studie/191516/umfrage/bereitschaft-der-buerger-zu-mehr-politischer-beteiligung/</a
+            >
+          </p>
+          <h3>Politik / Verwaltung</h3>
+          <p>
+            Damit ich die Probleme und Herausforderung auf Seite der Politik und der Verwaltung
+            verstehen konnte, habe ich mit Roland Alder ein Interview geführt. Er ist Gemeinderat
+            der Gemeinde Ottenbach ZH und Kantonsrat im Kanton Zürich.
+          </p>
+          <p>Die wichtigsten Punkte aus dem Gespräch sind folgend zusammengefasst.</p>
+          <p>
+            Bürgerliche Partizipation ist aus Sicht der Politik fast immer erwünscht. Ziel der
+            meisten Politiker und Politikerinnen ist es, die Bevölkerung und ihre Anliegen zu
+            vertreten. Ein stetiger Austausch hilft um eine Entkopplung zu verhindern. Das Bedürfnis
+            ist also Grundsätzlich vorhanden.
+          </p>
+          <p>
+            Die meisten Personen, welche sich bereits engagieren tun dies entweder für eine gewisse
+            <i>Zeit</i> oder innerhalb eines gewissen <i>Themas</i>. Also dort wo man persönlich
+            Betroffen oder interessiert ist. Es gibt fast keine Menschen, welche sich stetig und
+            über ein breites Spektrum beteiligen.
+          </p>
+          <p>
+            Direkt an die Verwaltung werden fasst keine Projektanfragen gestellt. Dabei soll
+            anscheinend die Kommunikation das grösste Problem sein. Die Menschen wissen nicht wo sie
+            sich melden können.
+          </p>
+          <p>
+            Die Verwaltung von kleineren Gemeinden (im Kontext dieses Inteviews: Ottenbach 2300
+            Einwohner) hat in den meisten Fällen sehr knappe Ressourcen. Selbst wenn Mitarbeitende
+            in die Ferien gehen oder Krank sind, gibt es Verantwortlichkeiten, die in dieser Zeit
+            nicht wahrgenommen werden können.
+          </p>
+          <p>
+            Verschiedene Verwaltungen haben bei öffentlichen digitalen Tools und Plattform immer
+            Anfangs sehr viel Geld investiert und den Launch sehr stark gepusht. Danach war es die
+            grösste Challenge das Tool zu unterhalten und am Leben zu erhalten. Da die Ressourcen
+            sehr knapp sind, sind dabei viele Plattformen wieder versandet.
+          </p>
+          <p>
+            Der Föderalismus ist zwar ein gutes und bewährtes System, doch Kantone und Gemeinde
+            verstehen sich nicht immer gut. Der Kanton kennt die Bedürfnisse der Gemeinden nicht
+            immer sehr gut und eine einzelne Gemeinde kann für seine Bedürfnisse beim Kanton nicht
+            sehr viel ausrichten.
+          </p>
+
+          <h3>Der bestehende Markt</h3>
+          <p>
+            Es gibt bereits eine Menge an Organisationen, Firmen und Vereine die sich mit digitaler
+            bürgerlicher Partizipation auseinander setzen und diese fördern wollen.
+          </p>
+          <p>1. Civocracy</p>
+          <p>
+            [Website](<u
+              ><a href="https://www.civocracy.com" rel="nofollow">https://www.civocracy.com</a></u
+            >) [Communites](<u
+              ><a href="https://www.civocracy.org/" rel="nofollow">https://www.civocracy.org/</a></u
+            >) [Blog](https://www.civocracy.com/blog)
+          </p>
+          <p>
+            Die Firma Civocracy unterstützt politische Verwaltungen mit ihrer Plattform das
+            Engagement und den Austausch der Bevölkerung zu fördern. Weil die Plattform viele
+            kommunikative Funktionen beinhaltet, dient es vor allem als digitales Sprachrohr. Dabei
+            liegt der Fokus der Initiative vor allem auf Seite der Verwaltung. Das heisst, wenn die
+            Verwaltung den Input der Bevölkerung zu einem bestimmten Thema wollen, dann schalten sie
+            die entsprechenden Massnahmen dazu auf der Plattform und nicht umgekehrt. Das Ziel ist
+            die Agenda der aktuellen politischen Administration voranzutreiben und deren Resultate
+            zu messen.
+          </p>
+          <p>Pros:</p>
+          <ul>
+            <li>Sehr viele kommunikative Tools</li>
+          </ul>
+          <ul>
+            <li>News / Blog</li>
+            <li>Events</li>
+            <li>Eine grosse Menge an einzelnen Tools</li>
+          </ul>
+          <p>Cons:</p>
+          <ul>
+            <li>Agenda der Politik steht im Vordergrund</li>
+            <li>Jede Gemeinde / Organisation muss ihre eigene Plattform unterhalten</li>
+          </ul>
+          <p>- Beteiligung</p>
+          <p>- Ideenbox – Sammeln von Ideen der Bürger:Innen</p>
+          <p>- Diskussion - Debatieren / Austausch</p>
+          <p>- Fragebogen</p>
+          <p>- Kommunikation</p>
+          <p>- News / Blog</p>
+          <p>- Events</p>
+          <p>- Materialien / Detailinformationen</p>
+          <p>- Analyse</p>
+
+          <p>4. Crossiety</p>
+          <p>
+            Crossiety ist eine ähnliche Plattform wie Civocracy. Dabei steht die politischen Agenda
+            aber weniger in Zentrum. Mit einem sehr grossen Bereich an verschiedensten Funktionen
+            könnte man es am ehesten als digitaler Dorfplatz bezeichnen. Es soll den Austausch
+            innerhalb der Bevölkerung, sowie den Austausch zwischen Bevölkerung und der Verwaltung
+            fördern.
+          </p>
+          <p>Pro:</p>
+          <ul>
+            <li>
+              Für schweizer Gemeinden optimal, da die Firma aus der Schweiz ist und sich mit dem
+              hiesigen demokratischen System und der Kultur auskennt.
+            </li>
+          </ul>
+          <p>Cons:</p>
+          <ul>
+            <li>Jede Gemeinde muss ihre eigene Plattform aufbauen und unterhalten</li>
+            <li>Relativ grosser Aufwand zum Launch und unterhalt.</li>
+          </ul>
+          <p>2. The Next Network</p>
+          <p>
+            [Website](<u
+              ><a href="http://www.wearenext.org/" rel="nofollow">http://www.wearenext.org/</a></u
+            >) [nextzürich](https://nextzuerich.ch)
+          </p>
+          <p>Hauptsächlich Sammlung von Ideen. Mit Zustimmen, Ablehnen und Kommentieren.</p>
+          <p>
+            Nextzürich ist eine Organisation die sich für Co-creation in der Stadtentwicklung in der
+            Stadt Zürich einsetzt. Nebst dem, dass sie Events und Workshops organisieren um
+            gemeinsam mit der Bevölkerung Ideen zu entwickeln, stellen sie auf Ihrer Website auch
+            eine Ideenkarte zur Verfügung. Auf dieser können Personen ihre eigenen Ideen erfassen
+            und geografisch auf der Karte anheften.
+          </p>
+          <p>Pro:</p>
+          <ul>
+            <li>Up- / Downvotes zeigen relativ schnell die Bedürfnise auf</li>
+            <li>Karte als Interface um Ideen zu verordnen</li>
+          </ul>
+          <p>Cons:</p>
+          <ul>
+            <li>Es ist nicht klar was mit diesen Ideen geschieht.</li>
+            <li>Kein Austausch mit der politischen Verwaltung</li>
+          </ul>
+          <p>Nextzürich ist Teil des Next Networks</p>
+          <p>
+            [Stadtmacher](<u
+              ><a href="https://www.stadtmacher.org/" rel="nofollow"
+                >https://www.stadtmacher.org/</a
+              ></u
+            >)
+          </p>
+          <p>
+            Stadtmacher ist eine Crowdfunding Plattform für Projekte der Bevölkerung der Stadt
+            Hamburg. Auf der Plattform werden jeweils «Challenges» (Thema) veröffentlicht zu welcher
+            dann konkrete Projekte eingereicht werden können.
+          </p>
+          <p>Pros</p>
+          <ul>
+            <li>Finanzierung. Sowohl von anderen Personen wie auch von der Organisation</li>
+            <li>Vernetzung innerhalb der Bevölkerung</li>
+          </ul>
+          <p>Cons</p>
+          <ul>
+            <li>
+              Einschränkung durch Challenges. Gibt es eine Idee ohne die Challenge, passt sie nicht
+              auf die Plattform.
+            </li>
+            <li>
+              Es muss bereits eine klare Vorstellung des Projektes bestehen, bevor es eingereicht
+              werden kann
+            </li>
+          </ul>
+
+          <p>3. Stadt Zürich</p>
+          <p>
+            [Züri wie neu](<u
+              ><a href="https://www.zueriwieneu.ch" rel="nofollow">https://www.zueriwieneu.ch</a></u
+            >)
+          </p>
+          <p>
+            Ähnlich wie «Nextzürich» bietet «Züri wie neu» ein kartenbasiertes Tool. Die Plattform
+            dreht sich aber um Schäden und Mängel der öffentlichen Infrastruktur, die von der
+            Bevölkerung gemeldet werden.
+          </p>
+          <p>Pros</p>
+          <ul>
+            <li>Austausch zwischen Bevölkerung und Verwaltung</li>
+            <li>
+              Status der Meldung ist klar. Die Meldungen werden in der Regel schnell bearbeitet.
+            </li>
+            <li>Plattform wird unterhalten</li>
+          </ul>
+          <p>Cons</p>
+          <ul>
+            <li>Könnte zum Shitposting missbraucht werden</li>
+            <li>Es geht nicht darum, was noch sein könnte sondern was nicht funktioniert.</li>
+          </ul>
+
+          <h2>Problemdefinition / Synthese</h2>
+          <p>
+            Die Recherchephase hat aufgezeigt, dass sich die Fragestellung «Wie kann ich die
+            Bevölkerung dabei unterstützen ihre Ideen bei der Gemeinde einzubringen?» bewährt. Das
+            Bedürfnis nach mehr Partizipation ist in der Bevölkerung wie auch auf Seiten der Politik
+            vorhanden.
+          </p>
+          <h3>Archetypen</h3>
+          <p>
+            Anstelle von Personas habe ich mich dazu entschieden sogenannte Archetypen zu erstellen.
+            Dazu habe ich die verschiedenen Eigenschaften und Pain Points, die in der Recherchephase
+            gesammelt worden sind, gruppiert und damit mögliche Nutzer dargestellt.
+          </p>
+          <p>Initiativ-Typ</p>
+          <p>Bedürfnis-Typ</p>
+          <p>Verwaltung-Typ</p>
+          <h3>Requirements</h3>
+          <p>
+            Zusätzlich habe ich Requirements definiert, die dieses Projekt erfüllen muss um
+            einerseits sich von den bereits vorhandenen Plattformen abzuheben und aber auch auf die
+            Bedürfnisse einzugehen, die nicht per se in den Archetypen sichtbar sind.
+          </p>
+          <p>Projekt</p>
+          <ul>
+            <li>
+              Plattform darf für die Gemeinde keinen zusätzlichen Aufwand bedeuten. Natürlich
+              braucht es einen gewissen Aufwand sich in eine Plattform einzuarbeiten, aber der
+              Grundfokus muss bleiben: Grundsätzlich für die Verwaltung Arbeit abgenommen anstatt
+              Arbeit generiert.
+            </li>
+            <li>
+              Die Plattform soll weder von der Gemeinde noch vom Kanton unterhalten werden.
+              Einerseits reduziert dies den Aufwand für die Verwaltung auf die andere Seite beugt
+              man gewissen Spannungen und bürokratischen Hürden etwas vor.
+            </li>
+            <li>Klarer, zugänglicher und offener Austausch zwischen Gemeinde und Bevölkerung</li>
+            <li>Austausch innerhalb der Bevölkerung fördern</li>
+          </ul>
+
+          <p>Nebst den Requirements gibts auch Sachen die dieses Projekt nicht abdecken soll.</p>
+          <p>
+            Das Projekt soll sich alleine auf die oben definierte Fragestellung zu fokussieren,
+            sonstige Funktionalitäten, wie z.B. kommunikative Tools (Blog, News, Events, etc.)
+            sollen nicht berücksichtigt werden. Es gibt bereits genügend andere Lösungen auf dem
+            Markt, die diese zu genüge abdecken.
+          </p>
+
+          <h2>Umsetzung</h2>
+          <p>
+            Basierend auf der Recherche und den daraus folgenden Anforderung ist die Plattform
+            «Triibhuus» entstanden.
+          </p>
+          <p>
+            Ein Treibhaus wird genutzt um für das Wachstum von Pflanzen ein optimales Klima zu
+            erzeugen und diese vor dem Wetter zu schützen. Ein solcher Ort soll auch diese Plattform
+            werden. Ein Ort der ein optimales Klima und Bedingungen für die Projekte der Bevölkerung
+            bietet.
+          </p>
+          <p>«Triibhuus» ist ein Projektname und nicht als Produktname vorgesehen.</p>
+          <p>
+            Das folgende Konzept entspricht einem MVP, welcher in weiteren Iteration
+            weiterentwickelt werden kann. Bei dieser Arbeit habe ich mich mit dem Fokus auf die
+            Fragestellung versucht den Scope so schmal wie möglich zu halten, um das Problem zu
+            lösen, dass es lösen galt. Dabei sind einige Ideen auf der Strecke geblieben.
+          </p>
+          <h3>Konzept</h3>
+          <p>
+            Das «Triibhuus» ist eine webbasierte Plattform die rund um geografisch verortete Objekte
+            aufgebaut ist.
+          </p>
+          <p>
+            Auf der Plattform können Projekte der Bevölkerung eingereicht und entdeckt werden.
+            Ausserdem können Menschen ihre Unterstützung für Projekte kundtun und direkt konkrete
+            Hilfe für deren Umsetzung anbieten. Die Verwaltung kann direkt auf Projekte reagieren
+            und öffentlich kommunizieren was sie davon halten und die initiierenden Personen
+            unterstützen.
+          </p>
+          <h3>Datenstruktur</h3>
+          <p>
+            Die Datenstruktur der Plattform besteht aus drei Hauptobjekten: «Projekt», «User» und
+            «Gemeinde»
+          </p>
+          <h3>Projekt</h3>
+          <p>
+            Das «Projekt» ist der Kern der Plattform. Ein Projekt ist entweder eine rohe Idee, die
+            jemand der Verwaltung mitteilen möchte oder ein konkretes Vorhaben, dass jemand selbst
+            umsetzen möchte.
+          </p>
+
+          <p>Kategorie</p>
+          <p>
+            Ein Wert aus einer vordefinierten Liste, dass zur thematisches Verortung bestimmt ist.
+            Diese Information hilft sowohl der Gemeinde, wie auch der öffentlichkeit Projekte
+            einfacher zu finden.
+          </p>
+          <p>Beschreibung</p>
+          <p>
+            Mit einem Titel, einem Untertitle und einer Beschreibung (Richtext) kann das Projekt
+            entweder kurz und prägnant angerissen werden oder aber auch detailiert beschrieben
+            werden. Je nach dem was für den konkreten Fall nützlicher ist.
+          </p>
+          <p>Unterstützungen</p>
+          <p>
+            Die Unterstützungen sind ein numerischer Wert, welcher zeigt wie viele Personen dieses
+            Projekt unterstützen. Jeder User kann jedes Projekt einmal unterstützen.
+          </p>
+          <p>
+            Die Gemeinden können mit dieser Information einen besseren Überblick über die
+            Bedürfnisse der Bevölkerung. Je höher die Anzahl Unterstützungen, desto höher die
+            Aufmerksamkeit.
+          </p>
+          <p>Geografische Lage</p>
+          <p>
+            Jedes Projekt muss eine geografische Position haben. Darauf basiert die kartenbasierte
+            «Entdecken» Funktion.
+          </p>
+          <p>Markierte Gemeinde</p>
+          <p>
+            Die initiierende Person kann mindestens eine Gemeinde für dieses Projekt markieren. Dies
+            ist unabhängig davon möglich ob diese Gemeinde bereits auf der Plattform registriert ist
+            oder nicht. Die Plattform bietet selbst eine Liste aller Gemeinden der Schweiz.
+          </p>
+          <p>
+            Da nicht jedes Projekt genau einer Gemeinde zugeordnet werden kann, können beliebig
+            viele Gemeinden markiert werden.
+          </p>
+          <p>
+            Falls eine Gemeinde nicht auf der Plattform registriert ist, erscheint eine
+            entsprechende Meldung. Das Projekt kann ohne weiteres veröffentlicht werden. Wenn sich
+            die markierte Gemeinde zu einem späteren Zeitpunkt registriert, kann sie auf das Projekt
+            reagieren. Somit wird sichergestellt, dass keine Projekte verloren gehen.
+          </p>
+          <p>
+            Registrierte Gemeinde können dem Projekt selbst einen Status und eine Mitteilung
+            verleihen. Dies soll der initiierenden Person informieren, welchen Stand das Projekt bei
+            der Verwaltung hat und ob diese bereits bearbeitet wurde.
+          </p>
+          <p>Diskussionen</p>
+          <p>
+            Eine Diskussion ist ein linearer Thread von Nachrichten. Das Diskussionsfeature bietet
+            die Möglichkeit zum Austausch aller User der Plattform um etwa Vorschläge oder weitere
+            Ideen auszutauschen. Auch die Gemeinde kann sich hier einbringen.
+          </p>
+          <p>Beitragen</p>
+          <p>
+            Eine konkrete Liste von Tätigkeiten, bei welcher der User noch Unterstützung braucht.
+            Die einzelnen Elemente haben selbst keine Funktion ausser, dass sie zu einer eigenen
+            separaten Diskussion führen. Diese ist dann in der Diskussionsliste auch aufgeführt.
+          </p>
+          <h3>User</h3>
+          <p>
+            Das «User» Objekt repräsentiert die Personen, die auf dieser Plattform aktiv sind.
+            Sowohl die Personen aus der Bevölkerung als auch die Personen der Verwaltung von
+            Gemeinden.
+          </p>
+          <p>
+            User werden im User Interface meistens mit dem Namen und einem Profilbild dargestellt.
+          </p>
+          <p>
+            Alle User haben mit der «Meine Projekte» Ansicht, einen Überblick über die eigenen und
+            die unterstützten Projekte.
+          </p>
+          <p>
+            Jede Person kann sich auf der Plattform als User registrieren. Der Login- und
+            Registrationsprozess ist in den Screens nicht abgebildet
+          </p>
+          <p>
+            Future: Eigene Standorte (Wohnort, Arbeitsort) für Notifications / Standart ort bei der
+            Entdecken Funktion
+          </p>
+          <h3>Gemeinde</h3>
+          <p>
+            Das «Gemeinde» Objekt repräsentiert eine politische Gemeinde aus der Schweiz. Alle
+            Gemeinden sind bereits auf der Plattform erfasst und können bei Projekten markiert
+            werden.
+          </p>
+          <p>
+            Sobald sich jemand auf der Plattform als eine spezifische Gemeinde ausgeben will, muss
+            diese Persone von den Betreibern der Plattform manuell freigeschalten werden. Somit soll
+            ein Missbrauch verhindert werden.
+          </p>
+          <p>
+            Nachdem ein User mit einer Gemeinde verbunden wurde, erscheint im Header ein Dropdown,
+            welches es ermöglicht im Namen der Gemeinde Änderungen vorzunehmen.
+          </p>
+          <p>
+            Somit können User weiterhin als eigenständige Personen auf der Plattform aktiv sein und
+            trotzdem Arbeit für eine Verwaltung erledigen.
+          </p>
+          <p>
+            Die Ansicht «Meine Projekte» bietet nun eine Überblick über alle Projekte, bei welchen
+            die Gemeinde markiert wurde. Sie soll der Gemeinde helfen, die lokalen Projekte zu
+            verwalten.
+          </p>
+
+          <h2>Use Cases</h2>
+          <p>
+            Um aufzuzeigen wie die Plattform von den definierten Archetypen benutzt wird, werden nun
+            drei verschieden Use Cases präsentiert, die ein mögliches Szenario für je einen der
+            Archetypen beinhalten.
+          </p>
+
+          <h3>1. Projekt erstellen</h3>
+          <p>
+            Der «Initiative-Typ» hat ein konkretes Projekt geplant und möchte dies der Gemeinde und
+            der Bevölkerung kundtun. Die Person hat sich bereits einige Gedanken zum Projekt gemacht
+            und dafür auch schon Informationen gesammelt. Die Person benutzt dazu ihren Notebook
+            oder ihren Desktop.
+          </p>
+          <h3>2. Idee einbringen</h3>
+          <p>
+            Der «Bedürfnis-Typ» ist gerade zu Fuss unterwegs. Beim Spaziergang fällt der Person
+            etwas spontan ein
+          </p>
+          <h3>3. Projekt verwalten</h3>
+          <p>
+            Der «Verwaltungs-Typ» möchte sich auf der Plattform informieren, welche neue Projekte
+            für die entsprechende Gemeinde erfasst worden sind. Die Person sieht ein spannendes
+            Projekt, aktualisiert den Status und teilt den Projektinitiierenden mit, dass das
+            Projekt intern besprochen würde. Die Person benutzt dazu ihren Notebook oder ihren
+            Desktop.
+          </p>
+
+          <h2>Weiterentwicklung</h2>
+          <p>
+            Die Plattform bietet mit diesem Konzept eine solide Grundlage für weitere Funktionen und
+            Features.
+          </p>
+          <h3>1. Challenges / Aufruf für Ideen</h3>
+          <h3>2. Anbindungsmöglichkeiten für Gemeinde Infrastruktur</h3>
+          <h3>3. Dashboard für Gemeinden</h3>
         </div>
       </article>
     </main>
