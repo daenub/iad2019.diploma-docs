@@ -1,0 +1,38 @@
+.archetype-list {
+  display: flex;
+  gap: 1rem;
+  grid-column: 1 / -1;
+  margin: 4rem 0;
+}
+
+.archetype {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  background: var(--oc-gray-1);
+}
+
+.archetype__title {
+  font-size: var(--h4-font-size);
+  line-height: var(--h4-line-height);
+  font-weight: 600;
+  text-align: center;
+
+  margin-bottom: 1rem;
+}
+
+.archetype__section-title {
+  font-size: var(--h5-font-size);
+  line-height: var(--h5-line-height);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  margin-bottom: 0.5rem;
+}
+
+.archetype__attributes {
+  margin-bottom: 1rem;
+  padding-left: 1.5em;
+}

@@ -3,29 +3,61 @@
 }
 
 .header__image {
-  grid-column: 2 / -1;
+  grid-column: 1 / -1;
+
+  @include breakpoint(large) {
+    grid-column: 2 / -1;
+  }
 }
 
 .header__card {
-  grid-column-end: span 8;
+  grid-column: 1 / -1;
   background: $white;
   padding: 2rem;
   margin-top: -4rem;
+
+  @include breakpoint(medium) {
+    padding: 1.5rem 2rem;
+    margin-top: -4rem;
+    margin-left: 1rem;
+    grid-column-end: span 10;
+  }
+
+  @include breakpoint(large) {
+    padding: 2rem;
+    grid-column-end: span 8;
+  }
 }
 
 .header__title {
   color: var(--oc-gray-9);
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--oc-green-9);
+
+  @include breakpoint(medium) {
+    font-size: 2.5rem;
+  }
+
+  @include breakpoint(large) {
+    font-size: 3rem;
+  }
 }
 
 .header__description {
   color: var(--oc-gray-7);
-  font-size: 2.5rem;
-  line-height: 3.5rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
   margin-bottom: 2rem;
+
+  @include breakpoint(medium) {
+    font-size: 1.5rem;
+  }
+
+  @include breakpoint(large) {
+    font-size: 2rem;
+  }
 }
 
 .header__meta {

@@ -1,0 +1,10 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #EBFBEE; }
+      .circle { fill: #2B8A3E; }
+    }
+  </style>
+  <rect class="circle" width="180" height="180" rx="90" fill="#EBFBEE"/>
+  <path class="t" d="M130.115 57.0826V74.536H101.901V143.693H79.3301V74.536H50.9849V57.0826H130.115Z" fill="#2B8A3E"/>
+</svg>

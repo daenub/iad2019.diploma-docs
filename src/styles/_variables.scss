@@ -11,3 +11,8 @@ $font-main-color: $black;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
+
+$breakpoints: (
+  medium: 40rem,
+  large: 64rem,
+);

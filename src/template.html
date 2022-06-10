@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
+    <link rel="icon" href="<%= require('./images/favicon.ico') %>" sizes="any" />
+    <!-- 32×32 -->
+    <link rel="icon" href="<%= require('./images/favicon.svg') %>" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="<%= require('./images/apple-touch-icon.png') %>" />
+    <!-- 180×180 -->
+
     <!-- TODO: self host the fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -32,7 +38,7 @@
         />
         <!-- 1002, 451 -->
         <div class="header__card">
-          <h1 class="header__title">Triibhuus</h1>
+          <h1 class="header__title">Triebhuus</h1>
           <p class="header__description">
             Ein Projekt zur Förderung der bürgerlichen Partizipation
           </p>
@@ -76,6 +82,8 @@
             einzubringen?»
           </p>
         </div>
+
+        <hr />
 
         <div class="richtext">
           <h2>Recherche</h2>
@@ -188,7 +196,7 @@
             sich melden können.
           </p>
           <p>
-            Die Verwaltung von kleineren Gemeinden (im Kontext dieses Inteviews: Ottenbach 2300
+            Die Verwaltung von kleineren Gemeinden (im Kontext dieses Inteviews: ca. Ottenbach 2300
             Einwohner) hat in den meisten Fällen sehr knappe Ressourcen. Selbst wenn Mitarbeitende
             in die Ferien gehen oder Krank sind, gibt es Verantwortlichkeiten, die in dieser Zeit
             nicht wahrgenommen werden können.
@@ -233,16 +241,20 @@
             die Agenda der aktuellen politischen Administration voranzutreiben und deren Resultate
             zu messen.
           </p>
-          <p>Pros:</p>
+          <h5>Pros:</h5>
           <ul>
-            <li>Sehr viele kommunikative Tools</li>
+            <li>
+              Sehr viele kommunikative Tools
+              <ul>
+                <li>News / Blog</li>
+                <li>Events</li>
+              </ul>
+            </li>
           </ul>
           <ul>
-            <li>News / Blog</li>
-            <li>Events</li>
             <li>Eine grosse Menge an einzelnen Tools</li>
           </ul>
-          <p>Cons:</p>
+          <h5>Cons:</h5>
           <ul>
             <li>Agenda der Politik steht im Vordergrund</li>
             <li>Jede Gemeinde / Organisation muss ihre eigene Plattform unterhalten</li>
@@ -261,17 +273,17 @@
             innerhalb der Bevölkerung, sowie den Austausch zwischen Bevölkerung und der Verwaltung
             fördern.
           </p>
-          <p>Pro:</p>
+          <h5>Pros:</h5>
           <ul>
             <li>
               Für schweizer Gemeinden optimal, da die Firma aus der Schweiz ist und sich mit dem
               hiesigen demokratischen System und der Kultur auskennt.
             </li>
           </ul>
-          <p>Cons:</p>
+          <h5>Cons:</h5>
           <ul>
             <li>Jede Gemeinde muss ihre eigene Plattform aufbauen und unterhalten</li>
-            <li>Relativ grosser Aufwand zum Launch und unterhalt.</li>
+            <li>Relativ grosser Aufwand zum Launch und Unterhalten.</li>
           </ul>
           <h4>nextzürich</h4>
           <p>
@@ -294,12 +306,12 @@
             Nextzürich ist Teil des
             <a href="https://www.wearenext.org/" rel="nofollow">Next Networks</a>
           </p>
-          <p>Pro:</p>
+          <h5>Pros:</h5>
           <ul>
             <li>Up- / Downvotes zeigen relativ schnell die Bedürfnise auf</li>
             <li>Karte als Interface um Ideen zu verordnen</li>
           </ul>
-          <p>Cons:</p>
+          <h5>Cons:</h5>
           <ul>
             <li>Es ist nicht klar was mit diesen Ideen geschieht.</li>
             <li>Kein Austausch mit der politischen Verwaltung</li>
@@ -319,12 +331,12 @@
             Hamburg. Auf der Plattform werden jeweils «Challenges» (Thema) veröffentlicht zu welcher
             dann konkrete Projekte eingereicht werden können.
           </p>
-          <p>Pros</p>
+          <h5>Pros:</h5>
           <ul>
             <li>Finanzierung. Sowohl von anderen Personen wie auch von der Organisation</li>
             <li>Vernetzung innerhalb der Bevölkerung</li>
           </ul>
-          <p>Cons</p>
+          <h5>Cons:</h5>
           <ul>
             <li>
               Einschränkung durch Challenges. Gibt es eine Idee ohne die Challenge, passt sie nicht
@@ -350,7 +362,7 @@
             dreht sich aber um Schäden und Mängel der öffentlichen Infrastruktur, die von der
             Bevölkerung gemeldet werden.
           </p>
-          <p>Pros</p>
+          <h5>Pros</h5>
           <ul>
             <li>Austausch zwischen Bevölkerung und Verwaltung</li>
             <li>
@@ -358,12 +370,14 @@
             </li>
             <li>Plattform wird unterhalten</li>
           </ul>
-          <p>Cons</p>
+          <h5>Cons</h5>
           <ul>
             <li>Könnte zum Shitposting missbraucht werden</li>
             <li>Es geht nicht darum, was noch sein könnte sondern was nicht funktioniert.</li>
           </ul>
-
+        </div>
+        <hr />
+        <div class="richtext">
           <h2>Problemdefinition / Synthese</h2>
           <p>
             Die Recherchephase hat aufgezeigt, dass sich die Fragestellung «Wie kann ich die
@@ -378,6 +392,58 @@
             gesammelt worden sind, gruppiert und damit mögliche Nutzer dargestellt.
           </p>
           <p>Initiativ-Typ</p>
+        </div>
+        <div class="archetype-list">
+          <div class="archetype">
+            <h4 class="archetype__title">Initiativ-Typ</h4>
+
+            <h5 class="archetype__section-title">Eingenschaften</h5>
+            <ul class="archetype__attributes">
+              <li>Eigenschaft 1</li>
+              <li>Eigenschaft 1</li>
+              <li>Eigenschaft 1</li>
+            </ul>
+            <h5 class="archetype__section-title">Pain Points</h5>
+            <ul class="archetype__attributes">
+              <li>Pain Point 1</li>
+              <li>Pain Point 1</li>
+              <li>Pain Point 1</li>
+            </ul>
+          </div>
+          <div class="archetype">
+            <h4 class="archetype__title">Initiativ-Typ</h4>
+
+            <h5 class="archetype__section-title">Eingenschaften</h5>
+            <ul class="archetype__attributes">
+              <li>Eigenschaft 1</li>
+              <li>Eigenschaft 1</li>
+              <li>Eigenschaft 1</li>
+            </ul>
+            <h5 class="archetype__section-title">Bedürfnis-Typ</h5>
+            <ul class="archetype__attributes">
+              <li>Pain Point 1</li>
+              <li>Pain Point 1</li>
+              <li>Pain Point 1</li>
+            </ul>
+          </div>
+          <div class="archetype">
+            <h4 class="archetype__title">Verwaltung-Typ</h4>
+
+            <h5 class="archetype__section-title">Eingenschaften</h5>
+            <ul class="archetype__attributes">
+              <li>Eigenschaft 1</li>
+              <li>Eigenschaft 1</li>
+              <li>Eigenschaft 1</li>
+            </ul>
+            <h5 class="archetype__section-title">Pain Points</h5>
+            <ul class="archetype__attributes">
+              <li>Pain Point 1</li>
+              <li>Pain Point 1</li>
+              <li>Pain Point 1</li>
+            </ul>
+          </div>
+        </div>
+        <div class="richtext">
           <p>Bedürfnis-Typ</p>
           <p>Verwaltung-Typ</p>
           <h3>Requirements</h3>
@@ -410,11 +476,13 @@
             sollen nicht berücksichtigt werden. Es gibt bereits genügend andere Lösungen auf dem
             Markt, die diese zu genüge abdecken.
           </p>
-
+        </div>
+        <hr />
+        <div class="richtext">
           <h2>Umsetzung</h2>
           <p>
             Basierend auf der Recherche und den daraus folgenden Anforderung ist die Plattform
-            «Triibhuus» entstanden.
+            «Triebhuus» entstanden.
           </p>
           <p>
             Ein Treibhaus wird genutzt um für das Wachstum von Pflanzen ein optimales Klima zu
@@ -422,7 +490,7 @@
             werden. Ein Ort der ein optimales Klima und Bedingungen für die Projekte der Bevölkerung
             bietet.
           </p>
-          <p>«Triibhuus» ist ein Projektname und nicht als Produktname vorgesehen.</p>
+          <p>«Triebhuus» ist ein Projektname und nicht als Produktname vorgesehen.</p>
           <p>
             Das folgende Konzept entspricht einem MVP, welcher in weiteren Iteration
             weiterentwickelt werden kann. Bei dieser Arbeit habe ich mich mit dem Fokus auf die
@@ -431,7 +499,7 @@
           </p>
           <h3>Konzept</h3>
           <p>
-            Das «Triibhuus» ist eine webbasierte Plattform die rund um geografisch verortete Objekte
+            Das «Triebhuus» ist eine webbasierte Plattform die rund um geografisch verortete Objekte
             aufgebaut ist.
           </p>
           <p>
@@ -470,7 +538,7 @@
           <h5>Kategorie</h5>
           <p>
             Ein Wert aus einer vordefinierten Liste, dass zur thematisches Verortung bestimmt ist.
-            Diese Information hilft sowohl der Gemeinde, wie auch der öffentlichkeit Projekte
+            Diese Information hilft sowohl der Gemeinde, wie auch der Öffentlichkeit Projekte
             einfacher zu finden.
           </p>
           <h5>Beschreibung</h5>
@@ -582,7 +650,9 @@
             die Gemeinde markiert wurde. Sie soll der Gemeinde helfen, die lokalen Projekte zu
             verwalten.
           </p>
-
+        </div>
+        <hr />
+        <div class="richtext">
           <h2>Use Cases</h2>
           <p>
             Um aufzuzeigen wie die Plattform von den definierten Archetypen benutzt wird, werden nun
@@ -610,7 +680,9 @@
             Projekt intern besprochen würde. Die Person benutzt dazu ihren Notebook oder ihren
             Desktop.
           </p>
-
+        </div>
+        <hr />
+        <div class="richtext">
           <h2>Weiterentwicklung</h2>
           <p>
             Die Plattform bietet mit diesem Konzept eine solide Grundlage für weitere Funktionen und

@@ -7,13 +7,38 @@
   @extend %grid;
 }
 
+hr {
+  grid-column: 1 / -1;
+  margin: 3rem 0;
+  border: none;
+  border-top: 1px solid var(--oc-gray-4);
+
+  @include breakpoint(medium) {
+    margin: 6rem 0;
+  }
+}
+
 .richtext,
 .data-wrapper {
-  grid-column: 6 / 12;
+  grid-column-end: span 12;
+  padding: 0 1rem;
+
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint(medium) {
+    grid-column: 2 / 12;
+  }
+
+  @include breakpoint(large) {
+    grid-column: 5 / 12;
+  }
 }
 
 .data-wrapper {
-  margin: 4rem 0;
+  margin: 4rem auto;
+  width: 100%;
 }
 
 .browser {
