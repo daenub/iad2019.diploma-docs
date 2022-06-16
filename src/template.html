@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="robots" content="noindex, nofollow" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -391,49 +392,49 @@
             Dazu habe ich die verschiedenen Eigenschaften und Pain Points, die in der Recherchephase
             gesammelt worden sind, gruppiert und damit mögliche Nutzer dargestellt.
           </p>
-          <p>Initiativ-Typ</p>
         </div>
         <div class="archetype-list">
           <div class="archetype">
             <h4 class="archetype__title">Initiativ-Typ</h4>
 
-            <h5 class="archetype__section-title">Eingenschaften</h5>
+            <h5 class="archetype__section-title">Eigenschaften</h5>
             <ul class="archetype__attributes">
-              <li>Eigenschaft 1</li>
-              <li>Eigenschaft 1</li>
-              <li>Eigenschaft 1</li>
+              <li>Hat eine konkrete Idee</li>
+              <li>Hat Fähigkeiten um Projekt umzusetzen oder kann einen Teil dazu beisteuern</li>
+              <li>Möchte und kann aktiv helfen</li>
             </ul>
             <h5 class="archetype__section-title">Pain Points</h5>
             <ul class="archetype__attributes">
-              <li>Pain Point 1</li>
-              <li>Pain Point 1</li>
-              <li>Pain Point 1</li>
+              <li>Weiss nicht wo sie sich einbringen oder melden kann.</li>
+              <li>Glaubt nicht an Umsetzbarkeit innerhalb der Bestimmungen (z.B. Baugesetze)</li>
+              <li>Kann das Projekt nicht alleine umsetzen</li>
             </ul>
           </div>
           <div class="archetype">
-            <h4 class="archetype__title">Initiativ-Typ</h4>
+            <h4 class="archetype__title">Bedürfnis-Typ</h4>
 
-            <h5 class="archetype__section-title">Eingenschaften</h5>
+            <h5 class="archetype__section-title">Eigenschaften</h5>
             <ul class="archetype__attributes">
-              <li>Eigenschaft 1</li>
-              <li>Eigenschaft 1</li>
-              <li>Eigenschaft 1</li>
+              <li>Hat ein Bedürfnis oder vermisst etwas</li>
+              <li>Kann selbst die Idee nicht umsetzten</li>
+              <li>Lebt oder arbeitet in dieser Gemeinde.</li>
             </ul>
-            <h5 class="archetype__section-title">Bedürfnis-Typ</h5>
+            <h5 class="archetype__section-title">Pain Points</h5>
             <ul class="archetype__attributes">
-              <li>Pain Point 1</li>
-              <li>Pain Point 1</li>
-              <li>Pain Point 1</li>
+              <li>Weiss nicht wo sie sich einbringen oder melden kann.</li>
             </ul>
           </div>
           <div class="archetype">
             <h4 class="archetype__title">Verwaltung-Typ</h4>
 
-            <h5 class="archetype__section-title">Eingenschaften</h5>
+            <h5 class="archetype__section-title">Eigenschaften</h5>
             <ul class="archetype__attributes">
-              <li>Eigenschaft 1</li>
-              <li>Eigenschaft 1</li>
-              <li>Eigenschaft 1</li>
+              <li>Möchte über Probleme und Bedürfnisse in der Gemeinde informiert sein</li>
+              <li>Möchte Anfragen effizient bearbeiten können.</li>
+              <li>
+                Hat nebst der Verantwortung für den Bereich «Bürgeriliches Engagement» noch viele
+                andere Zuständigkeiten
+              </li>
             </ul>
             <h5 class="archetype__section-title">Pain Points</h5>
             <ul class="archetype__attributes">
@@ -444,8 +445,6 @@
           </div>
         </div>
         <div class="richtext">
-          <p>Bedürfnis-Typ</p>
-          <p>Verwaltung-Typ</p>
           <h3>Requirements</h3>
           <p>
             Zusätzlich habe ich Requirements definiert, die dieses Projekt erfüllen muss um
@@ -541,6 +540,12 @@
             Diese Information hilft sowohl der Gemeinde, wie auch der Öffentlichkeit Projekte
             einfacher zu finden.
           </p>
+          <img
+            src="<%=require('./images/project/category.png')%>"
+            alt=""
+            class="image image--part"
+          />
+          <p>Verwendung der Kategorie in einer Projekt Card</p>
           <h5>Beschreibung</h5>
           <p>
             Mit einem Titel, einem Untertitel und einer Beschreibung (Richtext) kann das Projekt
@@ -552,6 +557,11 @@
             Die Unterstützungen sind ein numerischer Wert, welcher zeigt wie viele Personen dieses
             Projekt unterstützen. Jeder User kann jedes Projekt einmal unterstützen.
           </p>
+          <img
+            src="<%=require('./images/project/supports.png')%>"
+            alt=""
+            class="image image--part"
+          />
           <p>
             Die Gemeinden können mit dieser Information einen besseren Überblick über die
             Bedürfnisse der Bevölkerung. Je höher die Anzahl Unterstützungen, desto höher die
@@ -562,6 +572,11 @@
             Jedes Projekt muss eine geografische Position haben. Darauf basiert die kartenbasierte
             «Entdecken» Funktion.
           </p>
+          <img
+            src="<%=require('./images/project/location_boxed.png')%>"
+            alt=""
+            class="image image--part"
+          />
           <h5>Markierte Gemeinde</h5>
           <p>
             Die initiierende Person kann mindestens eine Gemeinde für dieses Projekt markieren. Dies
@@ -583,10 +598,15 @@
             die markierte Gemeinde zu einem späteren Zeitpunkt registriert, kann sie auf das Projekt
             reagieren. Somit wird sichergestellt, dass keine Projekte verloren gehen.
           </p>
+          <img
+            src="<%=require('./images/project/municipality_not_registered.png')%>"
+            alt=""
+            class="image image--part"
+          />
           <p>
             Registrierte Gemeinde können dem Projekt selbst einen Status und eine Mitteilung
-            verleihen. Dies soll der initiierenden Person informieren, welchen Stand das Projekt bei
-            der Verwaltung hat und ob diese bereits bearbeitet wurde.
+            verleihen. Dies soll die initiierende Person darüber informieren, welchen Stand das
+            Projekt bei der Verwaltung hat und ob dies bereits bearbeitet wurde.
           </p>
           <img
             src="<%=require('./images/project/status_list.png')%>"
@@ -599,12 +619,33 @@
             die Möglichkeit zum Austausch aller User der Plattform um etwa Vorschläge oder weitere
             Ideen auszutauschen. Auch die Gemeinde kann sich hier einbringen.
           </p>
-          <h5>Beitragen</h5>
+        </div>
+        <figure class="browser">
+          <div class="browser__window">
+            <div class="browser__content">
+              <img
+                src="<%=require('./images/project/discussions.png')%>"
+                alt="Ansicht der Diskussionen innerhalb eines Projektes"
+              />
+            </div>
+          </div>
+          <figcaption class="browser__description">
+            Ansicht der Diskussionen innerhalb eines Projektes
+          </figcaption>
+        </figure>
+        <div class="richtext">
+          <h5>Tätigkeiten</h5>
           <p>
             Eine konkrete Liste von Tätigkeiten, bei welcher der User noch Unterstützung braucht.
             Die einzelnen Elemente haben selbst keine Funktion ausser, dass sie zu einer eigenen
             separaten Diskussion führen. Diese ist dann in der Diskussionsliste auch aufgeführt.
           </p>
+
+          <img
+            src="<%=require('./images/project/tasks_boxed.png')%>"
+            alt=""
+            class="image image--part"
+          />
 
           <strong>!!!!!!!!!!!! INFOBOX</strong>
           <p>
@@ -627,10 +668,31 @@
           <p>
             User werden im User Interface meistens mit dem Namen und einem Profilbild dargestellt.
           </p>
+          <img src="<%=require('./images/user/card.png')%>" alt="" class="image image--part" />
           <p>
             Alle User haben mit der «Meine Projekte» Ansicht, einen Überblick über die eigenen und
             die unterstützten Projekte.
           </p>
+        </div>
+        <figure class="browser">
+          <div class="browser__window">
+            <div class="browser__content">
+              <img src="<%=require('./images/user/projects.png')%>" alt="" />
+            </div>
+          </div>
+          <figcaption class="browser__description">Ansicht aller Projekte eines Users.</figcaption>
+        </figure>
+        <figure class="browser">
+          <div class="browser__window">
+            <div class="browser__content">
+              <img src="<%=require('./images/user/projects_supported.png')%>" alt="" />
+            </div>
+          </div>
+          <figcaption class="browser__description">
+            Liste aller Projekte, welche ein User unterstützt.
+          </figcaption>
+        </figure>
+        <div class="richtext">
           <p>
             Jede Person kann sich auf der Plattform als User registrieren. Der Login- und
             Registrationsprozess ist in den Screens nicht abgebildet
@@ -647,13 +709,18 @@
           </p>
           <p>
             Sobald sich jemand auf der Plattform als eine spezifische Gemeinde ausgeben will, muss
-            diese Persone von den Betreibern der Plattform manuell freigeschalten werden. Somit soll
+            diese Person von den Betreibern der Plattform manuell freigeschalten werden. Somit soll
             ein Missbrauch verhindert werden.
           </p>
           <p>
-            Nachdem ein User mit einer Gemeinde verbunden wurde, erscheint im Header ein Dropdown,
-            welches es ermöglicht im Namen der Gemeinde Änderungen vorzunehmen.
+            Nachdem ein User mit einer Gemeinde verbunden wurde, erscheint in der Navigation ein
+            Dropdown, welches es ermöglicht im Namen der Gemeinde Änderungen vorzunehmen.
           </p>
+          <img
+            src="<%=require('./images/municipality/navigation.png')%>"
+            alt=""
+            class="image image--part"
+          />
           <p>
             Somit können User weiterhin als eigenständige Personen auf der Plattform aktiv sein und
             trotzdem Arbeit für eine Verwaltung erledigen.
@@ -704,6 +771,15 @@
           <h3>1. Challenges / Aufruf für Ideen</h3>
           <h3>2. Anbindungsmöglichkeiten für Gemeinde Infrastruktur</h3>
           <h3>3. Dashboard für Gemeinden</h3>
+        </div>
+        <hr />
+        <div class="richtext">
+          <h2>Danksagung</h2>
+          <p>
+            Richard Zimerman<br />
+            Roland Zimerman<br />
+            Deborah Büschlen <br />
+          </p>
         </div>
       </article>
     </main>
