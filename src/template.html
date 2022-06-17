@@ -511,7 +511,8 @@
           <h3>Datenstruktur</h3>
           <p>
             Die Datenstruktur der Plattform besteht aus drei Hauptobjekten: «Projekt», «User» und
-            «Gemeinde».
+            «Gemeinde». In den folgenden Abschnitten werden alle Informationen, die diese Objekte
+            enthalten erläutert.
           </p>
           <h4>Projekt</h4>
           <p>
@@ -552,6 +553,13 @@
             entweder kurz und prägnant angerissen werden oder aber auch detailiert beschrieben
             werden. Je nach dem was für den konkreten Fall nützlicher ist.
           </p>
+          <h5>Bilder</h5>
+          <p>
+            Ein Projekt kann mehrere Bilder beinhalten, welche in der Detailansicht als «Carousel»
+            dargestellt werden. Die Projektinitiierenden können damit auf eine einfache Art und
+            Weise Details zu ihrem Projekt vermitteln.
+          </p>
+          <img src="<%=require('./images/project/images.png')%>" alt="" class="image image--part" />
           <h5>Unterstützungen</h5>
           <p>
             Die Unterstützungen sind ein numerischer Wert, welcher zeigt wie viele Personen dieses
@@ -650,8 +658,8 @@
           <strong>!!!!!!!!!!!! INFOBOX</strong>
           <p>
             In einer ersten Version der Plattform, existierte neben dem «Projekt» auch noch ein
-            «Idee» Objekt. Die Idee dahinter war einen möglichst einfachen Weg für den
-            «Bedürfnis-Typ» zu etablieren um Ideen zu erfassen.
+            «Idee» Objekt. Die Überlegung dahinter war, einen möglichst einfachen Weg für den
+            «Bedürfnis-Typ» zu etablieren um seine Ideen zu erfassen.
           </p>
           <p>
             Es hat sich aber gezeigt, dass die Unterschiede zwischen «Idee» und «Projekt» für die
@@ -726,11 +734,21 @@
             trotzdem Arbeit für eine Verwaltung erledigen.
           </p>
           <p>
-            Die Ansicht «Meine Projekte» bietet nun eine Überblick über alle Projekte, bei welchen
-            die Gemeinde markiert wurde. Sie soll der Gemeinde helfen, die lokalen Projekte zu
+            Die Ansicht «Meine Projekte» heisst nun «Projekte» und bietet nun eine Überblick über
+            alle Projekte, bei welchen die Gemeinde markiert wurde. Zusätzlich enthält die Ansicht
+            auch noch eine Such-, Filter- und Sortierungsfunktion. Somit enthält die Verwaltung der
+            Gemeinde ein Set an Tools, die sie dabei unterstützen sollen, die lokalen Projekte zu
             verwalten.
           </p>
         </div>
+        <figure class="browser">
+          <div class="browser__window">
+            <div class="browser__content">
+              <img src="<%=require('./images/municipality/projects.png')%>" alt="" />
+            </div>
+          </div>
+          <figcaption class="browser__description">Liste aller Projekte einer Gemeinde</figcaption>
+        </figure>
         <hr />
         <div class="richtext">
           <h2>Use Cases</h2>
@@ -747,11 +765,29 @@
             und dafür auch schon Informationen gesammelt. Die Person benutzt dazu ihren Notebook
             oder ihren Desktop.
           </p>
+        </div>
+        <figure class="browser browser--video">
+          <div class="browser__window">
+            <div class="browser__content">
+              <video src="<%=require('./videos/create_project.mp4')%>" muted controls></video>
+            </div>
+          </div>
+          <figcaption class="browser__description">TODO</figcaption>
+        </figure>
+        <div class="richtext">
           <h3>2. Idee einbringen</h3>
           <p>
             Der «Bedürfnis-Typ» ist gerade zu Fuss unterwegs. Beim Spaziergang fällt der Person
             etwas spontan ein
           </p>
+        </div>
+        <video
+          class="mobile-screen"
+          src="<%=require('./videos/create_idea.mp4')%>"
+          muted
+          controls
+        ></video>
+        <div class="richtext">
           <h3>3. Projekt verwalten</h3>
           <p>
             Der «Verwaltungs-Typ» möchte sich auf der Plattform informieren, welche neue Projekte
@@ -761,6 +797,32 @@
             Desktop.
           </p>
         </div>
+        <figure class="browser browser--video">
+          <div class="browser__window">
+            <div class="browser__content">
+              <video src="<%=require('./videos/set_status.mp4')%>" muted controls></video>
+            </div>
+          </div>
+          <figcaption class="browser__description">TODO</figcaption>
+        </figure>
+        <div class="richtext">
+          <h3>4. Projekt unterstützen</h3>
+          <p>
+            Der «Verwaltungs-Typ» möchte sich auf der Plattform informieren, welche neue Projekte
+            für die entsprechende Gemeinde erfasst worden sind. Die Person sieht ein spannendes
+            Projekt, aktualisiert den Status und teilt den Projektinitiierenden mit, dass das
+            Projekt intern besprochen würde. Die Person benutzt dazu ihren Notebook oder ihren
+            Desktop.
+          </p>
+        </div>
+        <figure class="browser browser--video">
+          <div class="browser__window">
+            <div class="browser__content">
+              <video src="<%=require('./videos/support_project.mp4')%>" muted controls></video>
+            </div>
+          </div>
+          <figcaption class="browser__description">TODO</figcaption>
+        </figure>
         <hr />
         <div class="richtext">
           <h2>Weiterentwicklung</h2>
