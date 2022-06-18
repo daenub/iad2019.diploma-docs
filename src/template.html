@@ -675,18 +675,6 @@
             class="image image--part"
           />
 
-          <strong>!!!!!!!!!!!! INFOBOX</strong>
-          <p>
-            In einer ersten Version der Plattform, existierte neben dem «Projekt» auch noch ein
-            «Idee» Objekt. Die Überlegung dahinter war, einen möglichst einfachen Weg für den
-            «Bedürfnis-Typ» zu etablieren um seine Ideen zu erfassen.
-          </p>
-          <p>
-            Es hat sich aber gezeigt, dass die Unterschiede zwischen «Idee» und «Projekt» für die
-            meisten Personen nicht klar waren. Deshalb habe ich mich dazu entschieden, diese zwei
-            Objekte zusammenzulegen. Bei der Umsetzung des User Interface habe ich zusätzlich darauf
-            geachtet, dass Ideen trotzdem möglichst einfach erfasst werden können.
-          </p>
           <h3>User</h3>
           <p>
             Das «User» Objekt repräsentiert die Personen, die auf dieser Plattform aktiv sind.
@@ -844,8 +832,43 @@
           <h2>Testing</h2>
           <p>
             Durch den Austausch mit Mitmenschen und meinem Mentor sowie durch Usability Tests konnte
-            ich viele Erkenntnisse gewinnen und konnte die Umsetzung entsprechend daran anpassen.
+            ich einige Erkenntnisse gewinnen und die Umsetzung entsprechend daran anpassen.
           </p>
+          <h3>Projekt und Idee</h3>
+          <p>
+            In einer ersten Version der Plattform, existierte neben dem «Projekt» auch noch ein
+            «Idee» Objekt. Die Überlegung dahinter war, einen möglichst einfachen Weg für den
+            «Bedürfnis-Typ» zu etablieren um seine Ideen zu erfassen.
+          </p>
+          <p>
+            Es hat sich aber gezeigt, dass die Unterschiede zwischen «Idee» und «Projekt» für die
+            meisten Personen nicht klar waren. Deshalb habe ich mich dazu entschieden, diese zwei
+            Objekte zusammenzulegen. Bei der Umsetzung des User Interface habe ich zusätzlich darauf
+            geachtet, dass Ideen trotzdem möglichst einfach erfasst werden können.
+          </p>
+          <h3>Unterstützen</h3>
+          <p>
+            Der Begriff «Unterstützen» wurde von gewissen Personen als «finanzielle oder praktische
+            Unterstützung» verstanden. Aus diesem Grund habe ich die Unterstützungen beim Button wie
+            auch beim Counter mit einem Herz-Icon ergänzt.
+          </p>
+          <img
+            src="<%=require('./images/project/supports.png')%>"
+            alt=""
+            class="image image--part"
+          />
+          <!-- <h3>Beitragen</h3> -->
+          <h3>Marker setzen</h3>
+          <p>
+            Beim Setzen der geografischen Position konnte ich beim Testing viele verschiedene
+            Verhaltensweisen beobachten. Wärend für jemand das positionieren des Markers eine
+            intuitive Aktion war, war es für andere nicht verständlich.
+          </p>
+          <p>
+            Den Marker habe ich deshalb mit einem Label versehen um bewusst auf dessen Funktion
+            aufmerksam zu machen.
+          </p>
+          <img src="<%=require('./images/testing/map.png')%>" alt="" class="image image--part" />
         </div>
         <hr />
         <div class="richtext">
@@ -872,9 +895,54 @@
             oder weniger Text zurecht kommen. Dies ist bereits eine gute Grundlage und eine
             Plattform mehrsprachig umzusetzen.
           </p>
-          <h3>1. Challenges / Aufruf für Ideen</h3>
-          <h3>3. Dashboard für Gemeinden</h3>
-          <h3>Personalisierte Startseite für User</h3>
+          <h3>Aufruf zur Partizipation</h3>
+          <p>
+            Die Partizipation könnte noch stärker gefördert werden, wenn die Verwaltung die
+            Möglichkeit hätten konkrete Aufrufe nach Ideen oder Projekten auf der Plattform zu
+            veröffentlichen. Diese müssten auch geografisch verortet werden und würden auf der
+            «Entdeckungs» Ansicht zusätzlich zu den Projekten angezeigt.
+          </p>
+          <h3>Auswertung für Gemeinden</h3>
+          <p>
+            Damit die Gemeinden noch einen besseren und detailierteren Überlblick über die
+            Bedürfnisse der Bevölkerung haben, könnte eine Gemeinde-Ansicht erstellt werden, welche
+            Auswertungen aller Projekte über den Zeitraum von einem Jahr hinweg beinhaltet. Falls
+            zum Beispiel übermässig viele Projekte mit der Kategorie «Barrierefreiheit» erstellt
+            wurden, kann dies ein guter Indikator für die Gemeinde sein, dass in diesem Bereich
+            etwas schief läuft.
+          </p>
+          <h3>Personalisierte Anzeige für User</h3>
+          <p>
+            Sobald die Plattform in Gebrauch ist und eine gewisse Menge an Projekten erfasst sind,
+            könnte für die User eine personalisierte Zusammenstellung ausgespielt werden. Diese
+            könnte sich z.B. auf den Wohn- und oder Arbeitsort beziehen, wenn diese Informationen
+            denn vom User angegeben wurde.
+          </p>
+        </div>
+        <div class="richtext">
+          <h2>Visuelles Design</h2>
+          <p>
+            Bei der visuellen Gestaltung habe ich versucht so minimalistisch wie möglich zu sein und
+            ein sehr dezentes Branding zu erstellen. Auf der Plattform sind viele verschiedene
+            Gemeinden aktiv, die selber ein eigenes Corporate Design haben. Dazu sollen auch die
+            Projekte hervorgehoben und nicht durch die Gestaltung übersteuert werden. Bildlich
+            gesprochen sollte also das visuelle Design ein Treibhaus sein, dessen Funktion darin
+            besteht, eine optimale Umgebung für die Projekte zu bieten und ihnen die nötige
+            Aufmerksamkeit zu schenken.
+          </p>
+          <p>
+            Bei der Auswahl der Farben habe ich mich für die
+            <a href="https://yeun.github.io/open-color/">Open Color</a> Palette entschieden. Diese
+            Farbpallete bietet eine breite Auswahl an Farbtönen mit je zehn Helligkeitsabstufungen.
+            Die Abstufungen sind über alle Farbtöne einheitlich wahrnehmbar. Dies wahr besonders für
+            die Einhaltung des nötigen Kontrasts für die Barrierefreiheit eine grosse Hilfe.
+          </p>
+          <p>
+            Mit der «Work Sans» habe ich mich für eine serifenlose Schriftfamilie entschieden, die
+            einen breiten Umfang an Schriftschnitten hat und für «on-screen» gebrauch gestaltet
+            wurde. Damit hatte ich eine grosse Freiheit in der Anwendung für verschiedenste
+            Textarten.
+          </p>
         </div>
         <hr />
         <div class="richtext">
