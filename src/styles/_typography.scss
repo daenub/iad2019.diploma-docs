@@ -107,6 +107,11 @@ html {
     margin-bottom: 1rem;
   }
 
+  a {
+    color: var(--oc-green-7);
+    text-underline-offset: 0.2em;
+  }
+
   .text--highlighted {
     font-weight: 500;
     font-size: 1.75rem;
